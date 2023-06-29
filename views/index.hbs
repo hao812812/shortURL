@@ -1,1 +1,15 @@
-<h2>Hel index</h2>
+{{#if shortURL}}
+<div class="alert mt-3 ">
+  <h3>Success! Please use this link:</h3>
+  <a href="/{{ shortURL }}" id="shorturl">http://localhost:3000/{{shortURL}}</a>
+</div>
+<button type="button" onclick="copy()" class="btn btn-primary ">Copy</button>
+
+{{else}}
+<form action="/" method="POST">
+  <div class="container">
+    <input type="url" name="url" placeholder="輸入URL" required oninvalid="setCustomValidity('請輸入正確網址')" />
+    <button class="shorten mt-3" type="submit">縮短網址 Shorten</button>
+  </div>
+</form>
+{{/if}}
