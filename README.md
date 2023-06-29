@@ -23,7 +23,7 @@
 2.開啟終端機(Terminal)，clone 此專案
 
 ```bash
-git clone https://github.com/hao812812/short-url.git
+git clone https://github.com/hao812812/shortURL.git
 ```
 
 3.初始化
