@@ -48,7 +48,7 @@ npm run dev
 6.看見此行訊息則代表順利運行
 
 ```bash
-Sever is running on http://localhost:3000
+App is running on http://localhost:3000
 ```
 
 7.進入網頁即可
